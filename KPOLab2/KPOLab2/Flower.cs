@@ -9,8 +9,8 @@
 
     internal class Flower
     {
-        public static readonly double DefaultPrice = 5.1;
-        public static readonly double DefaultWeightGrams = 39.7;
+        public static readonly double DefaultPrice;
+        public static readonly double DefaultWeightGrams;
 
         public static int FlowersBought { get; private set; } //number of flowers bought
 
@@ -18,6 +18,12 @@
 
         public readonly double Price;
         public readonly double WeightGrams;
+
+        static Flower()
+        {
+            DefaultPrice = 5.1;
+            DefaultWeightGrams = 39.7;
+        }
 
         public Flower()
         {
