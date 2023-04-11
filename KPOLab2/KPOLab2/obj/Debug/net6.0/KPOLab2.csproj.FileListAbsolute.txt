@@ -1,0 +1,15 @@
+C:\Users\Артём\source\repos\KPOLab2\KPOLab2\bin\Debug\net6.0\KPOLab2.exe
+C:\Users\Артём\source\repos\KPOLab2\KPOLab2\bin\Debug\net6.0\KPOLab2.deps.json
+C:\Users\Артём\source\repos\KPOLab2\KPOLab2\bin\Debug\net6.0\KPOLab2.runtimeconfig.json
+C:\Users\Артём\source\repos\KPOLab2\KPOLab2\bin\Debug\net6.0\KPOLab2.dll
+C:\Users\Артём\source\repos\KPOLab2\KPOLab2\bin\Debug\net6.0\KPOLab2.pdb
+C:\Users\Артём\source\repos\KPOLab2\KPOLab2\obj\Debug\net6.0\KPOLab2.csproj.AssemblyReference.cache
+C:\Users\Артём\source\repos\KPOLab2\KPOLab2\obj\Debug\net6.0\KPOLab2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Артём\source\repos\KPOLab2\KPOLab2\obj\Debug\net6.0\KPOLab2.AssemblyInfoInputs.cache
+C:\Users\Артём\source\repos\KPOLab2\KPOLab2\obj\Debug\net6.0\KPOLab2.AssemblyInfo.cs
+C:\Users\Артём\source\repos\KPOLab2\KPOLab2\obj\Debug\net6.0\KPOLab2.csproj.CoreCompileInputs.cache
+C:\Users\Артём\source\repos\KPOLab2\KPOLab2\obj\Debug\net6.0\KPOLab2.dll
+C:\Users\Артём\source\repos\KPOLab2\KPOLab2\obj\Debug\net6.0\refint\KPOLab2.dll
+C:\Users\Артём\source\repos\KPOLab2\KPOLab2\obj\Debug\net6.0\KPOLab2.pdb
+C:\Users\Артём\source\repos\KPOLab2\KPOLab2\obj\Debug\net6.0\KPOLab2.genruntimeconfig.cache
+C:\Users\Артём\source\repos\KPOLab2\KPOLab2\obj\Debug\net6.0\ref\KPOLab2.dll
