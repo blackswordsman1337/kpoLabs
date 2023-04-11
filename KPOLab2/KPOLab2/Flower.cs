@@ -9,12 +9,22 @@
 
     internal class Flower
     {
+        public static readonly double DefaultPrice = 5.1;
+        public static readonly double DefaultWeightGrams = 39.7;
+
         public static int FlowersBought { get; private set; } //number of flowers bought
 
         public readonly ColorsEnum Color;
 
         public readonly double Price;
         public readonly double WeightGrams;
+
+        public Flower()
+        {
+            Color = ColorsEnum.Red;
+            Price = DefaultPrice;
+            WeightGrams = DefaultWeightGrams;
+        }
 
         public Flower(ColorsEnum color)
         {

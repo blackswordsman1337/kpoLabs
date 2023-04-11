@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Артём\\source\\repos\\KPOLab2\\KPOLab2\\KPOLab2.csproj",
+      "projectUniqueName": "C:\\Users\\Артём\\source\\repos\\KPOLab3\\KPOLab2\\KPOLab2.csproj",
       "projectName": "KPOLab2",
-      "projectPath": "C:\\Users\\Артём\\source\\repos\\KPOLab2\\KPOLab2\\KPOLab2.csproj",
+      "projectPath": "C:\\Users\\Артём\\source\\repos\\KPOLab3\\KPOLab2\\KPOLab2.csproj",
       "packagesPath": "C:\\Users\\Артём\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Артём\\source\\repos\\KPOLab2\\KPOLab2\\obj\\",
+      "outputPath": "C:\\Users\\Артём\\source\\repos\\KPOLab3\\KPOLab2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Артём\\AppData\\Roaming\\NuGet\\NuGet.Config",

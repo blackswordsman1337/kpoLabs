@@ -32,6 +32,7 @@
                 return price;
             }
         }
+
         public Flower TheCheapestFlower
         {
             get
@@ -63,9 +64,24 @@
 
         public Bouquet(Flower[] flowers)
         {
-            if (flowers == null) throw new ArgumentException("Flowers array is null!");
+            if (flowers == null) 
+                throw new ArgumentException("Flowers array is null!");
 
             Flowers = flowers;
+
+            BouquetsMade++;
+        }
+
+        public Bouquet(Flower[] flowers, int capacity)
+        {
+            if (flowers == null) 
+                throw new ArgumentException("Flowers array is null!");
+
+            Flowers = new Flower[capacity];
+            for (int i = 0; i < capacity; i++)
+            {
+                Flowers[i] = flowers[i];
+            }
 
             BouquetsMade++;
         }
