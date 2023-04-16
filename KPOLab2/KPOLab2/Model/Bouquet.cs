@@ -1,6 +1,8 @@
-﻿namespace KPOLab2
+﻿using System.Collections;
+
+namespace KPOLab2
 {
-    internal class Bouquet
+    internal class Bouquet : IEnumerable<Flower>
     {
         public static int BouquetsMade { get; private set; } //number of bouquets made
 
@@ -84,6 +86,61 @@
             }
 
             BouquetsMade++;
+        }
+
+        public Flower this[int index]
+        {
+            get
+            {
+                return Flowers[index];
+            }
+            set
+            {
+                Flowers[index] = value;
+            }
+        }
+
+        public void LeaveOnlyRedFlowers()
+        {
+            var newFlowers = new List<Flower>();
+            FillFlowerList<RedFlower>(newFlowers);
+
+            Flowers = newFlowers.ToArray();
+        }
+
+        public void LeaveOnlyBlueFlowers()
+        {
+            var newFlowers = new List<Flower>();
+            FillFlowerList<BlueFlower>(newFlowers);
+
+            Flowers = newFlowers.ToArray();
+        }
+
+        public void LeaveOnlyGreenFlowers()
+        {
+            var newFlowers = new List<Flower>();
+            FillFlowerList<GreenFlower>(newFlowers);
+
+            Flowers = newFlowers.ToArray();
+        }
+
+        private void FillFlowerList<T>(List<Flower> flowers)
+        {
+            foreach (var flower in Flowers)
+            {
+                if (flower is T)
+                    flowers.Add(flower);
+            }
+        }
+
+        public IEnumerator<Flower> GetEnumerator()
+        {
+            return ((IEnumerable<Flower>)Flowers).GetEnumerator();
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return Flowers.GetEnumerator();
         }
     }
 }

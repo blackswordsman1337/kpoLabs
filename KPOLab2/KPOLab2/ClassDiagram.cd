@@ -3,27 +3,56 @@
   <Class Name="KPOLab2.Bouquet">
     <Position X="1.5" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAgAAAAIAQAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAECA=</HashCode>
-      <FileName>Bouquet.cs</FileName>
+      <HashCode>AAgAAAAIAQAAQBBASAgAAAAAAAAAAAAEAAAABAAAECA=</HashCode>
+      <FileName>Model\Bouquet.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
+      <Property Name="Flowers" />
       <Property Name="TheCheapestFlower" />
       <Property Name="TheMostExpensiveFlower" />
-      <Property Name="Flowers" />
     </ShowAsAssociation>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="KPOLab2.Flower">
     <Position X="5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAgAAAAAAAAAAAIgCAAEAA=</HashCode>
-      <FileName>Flower.cs</FileName>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAIgAAAEAA=</HashCode>
+      <FileName>Model\Flower.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="KPOLab2.FlowerShop">
-    <Position X="3.25" Y="3.25" Width="1.5" />
+    <Position X="3.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>ACAAAAAAAAQAAAAAAAAAgAQAAAAAAAAAABAAAAAABAA=</HashCode>
-      <FileName>FlowerShop.cs</FileName>
+      <HashCode>ACAAAAAAAAQAAAAAEAAAgAQAAIAAAAAAABAAAACABAA=</HashCode>
+      <FileName>View\FlowerShop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KPOLab2.ObjectCreator">
+    <Position X="5.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Controller\ObjectCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KPOLab2.GreenFlower" Collapsed="true">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\GreenFlower.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KPOLab2.RedFlower" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\RedFlower.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KPOLab2.BlueFlower" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\BlueFlower.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
