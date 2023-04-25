@@ -109,7 +109,7 @@ namespace KPOLab2
                 Console.Write("Введите цвет цветка (Red, Green или Blue): ");
                 string colorString = Console.ReadLine();
 
-                // Преобразовать строку в enum
+                // Преобразовать строку в  enum
                 ColorsEnum color;
                 if (!Enum.TryParse(colorString, out color))
                 {
