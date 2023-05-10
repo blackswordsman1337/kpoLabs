@@ -81,7 +81,6 @@ namespace KPOLab2
                 Console.WriteLine("Sorted by color:");
                 sort(sortedFlowersByColor);
 
-
                 Console.WriteLine("\nSorted by price:");
                 sort(sortedFlowersByPrice);
 
