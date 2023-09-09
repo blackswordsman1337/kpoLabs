@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maxff\\OneDrive\\Рабочий стол\\semen 5\\KPO\\kpoLabs\\KPOLab2\\TestProject1\\TestProject1.csproj": {}
+    "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\TestProject1\\TestProject1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maxff\\OneDrive\\Рабочий стол\\semen 5\\KPO\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj": {
+    "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maxff\\OneDrive\\Рабочий стол\\semen 5\\KPO\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj",
+        "projectUniqueName": "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj",
         "projectName": "KPOLab2",
-        "projectPath": "C:\\Users\\maxff\\OneDrive\\Рабочий стол\\semen 5\\KPO\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj",
-        "packagesPath": "C:\\Users\\maxff\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maxff\\OneDrive\\Рабочий стол\\semen 5\\KPO\\kpoLabs\\KPOLab2\\KPOLab2\\obj\\",
+        "projectPath": "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj",
+        "packagesPath": "C:\\Users\\Fyrazhka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\KPOLab2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\maxff\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fyrazhka\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -59,24 +59,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\maxff\\OneDrive\\Рабочий стол\\semen 5\\KPO\\kpoLabs\\KPOLab2\\TestProject1\\TestProject1.csproj": {
+    "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\TestProject1\\TestProject1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maxff\\OneDrive\\Рабочий стол\\semen 5\\KPO\\kpoLabs\\KPOLab2\\TestProject1\\TestProject1.csproj",
+        "projectUniqueName": "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\TestProject1\\TestProject1.csproj",
         "projectName": "TestProject1",
-        "projectPath": "C:\\Users\\maxff\\OneDrive\\Рабочий стол\\semen 5\\KPO\\kpoLabs\\KPOLab2\\TestProject1\\TestProject1.csproj",
-        "packagesPath": "C:\\Users\\maxff\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maxff\\OneDrive\\Рабочий стол\\semen 5\\KPO\\kpoLabs\\KPOLab2\\TestProject1\\obj\\",
+        "projectPath": "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\TestProject1\\TestProject1.csproj",
+        "packagesPath": "C:\\Users\\Fyrazhka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\TestProject1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\maxff\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fyrazhka\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -91,8 +91,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\maxff\\OneDrive\\Рабочий стол\\semen 5\\KPO\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj": {
-                "projectPath": "C:\\Users\\maxff\\OneDrive\\Рабочий стол\\semen 5\\KPO\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj"
+              "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj": {
+                "projectPath": "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj"
               }
             }
           }
@@ -140,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

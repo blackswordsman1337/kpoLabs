@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KPOLab2.Controller;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -65,6 +66,7 @@ namespace KPOLab2
             }
         }
 
+
         public static void Main()
         {
             var flowerShop = new FlowerShop();
@@ -101,6 +103,9 @@ namespace KPOLab2
 
             Console.WriteLine("Flower create: {0}", ObjectCreator.flowerCount);
             Console.WriteLine("Bouquet create: {0}", ObjectCreator.bouqetCount);
+            var bouquets =  new List<Bouquet>();
+            bouquets.Add(bouquet1);
+            bouquets.Add(bouquet2);
 
             Console.Write("Введите цвет цветка (Red, Green или Blue): ");
             string colorString = Console.ReadLine();
@@ -121,6 +126,24 @@ namespace KPOLab2
             Console.Write("Введите цену цветка: ");
             double price = double.Parse(Console.ReadLine());
             SearchFlower(flowers, price, "price");
+
+
+
+            
+            flowers.Sort();
+
+            Console.WriteLine("Цветы отсортированы по цвету:");
+            foreach (Flower f in flowers)
+                Console.WriteLine(f.Color);
+
+
+            // Сортировка букетов  
+            bouquets.Sort();
+
+            Console.WriteLine("Букеты отсортированы по цене:");
+            foreach (Bouquet b in bouquets)
+                Console.WriteLine(b.Price);
+
         }
     }
 }

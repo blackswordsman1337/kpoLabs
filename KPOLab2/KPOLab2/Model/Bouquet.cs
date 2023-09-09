@@ -3,11 +3,16 @@ using System.Collections.Generic;
 
 namespace KPOLab2
 {
-    internal class Bouquet : IEnumerable<Flower>
+    internal class Bouquet : IEnumerable<Flower>, IComparable<Bouquet>
     {
         public static int BouquetsMade { get; private set; } // number of bouquets made
 
         public List<Flower> Flowers { get; private set; }
+
+        public int CompareTo(Bouquet other)
+        {
+            return this.Price.CompareTo(other.Price);
+        }
 
         public double WeightGrams
         {
