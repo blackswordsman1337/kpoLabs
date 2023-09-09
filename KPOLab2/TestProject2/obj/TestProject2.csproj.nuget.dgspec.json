@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maxff\\source\\repos\\kpoLabs\\KPOLab2\\TestProject2\\TestProject2.csproj": {}
+    "C:\\Users\\maxff\\OneDrive\\Рабочий стол\\semen 5\\KPO\\kpoLabs\\KPOLab2\\TestProject2\\TestProject2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maxff\\source\\repos\\kpoLabs\\KPOLab2\\TestProject2\\TestProject2.csproj": {
+    "C:\\Users\\maxff\\OneDrive\\Рабочий стол\\semen 5\\KPO\\kpoLabs\\KPOLab2\\TestProject2\\TestProject2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maxff\\source\\repos\\kpoLabs\\KPOLab2\\TestProject2\\TestProject2.csproj",
+        "projectUniqueName": "C:\\Users\\maxff\\OneDrive\\Рабочий стол\\semen 5\\KPO\\kpoLabs\\KPOLab2\\TestProject2\\TestProject2.csproj",
         "projectName": "TestProject2",
-        "projectPath": "C:\\Users\\maxff\\source\\repos\\kpoLabs\\KPOLab2\\TestProject2\\TestProject2.csproj",
+        "projectPath": "C:\\Users\\maxff\\OneDrive\\Рабочий стол\\semen 5\\KPO\\kpoLabs\\KPOLab2\\TestProject2\\TestProject2.csproj",
         "packagesPath": "C:\\Users\\maxff\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maxff\\source\\repos\\kpoLabs\\KPOLab2\\TestProject2\\obj\\",
+        "outputPath": "C:\\Users\\maxff\\OneDrive\\Рабочий стол\\semen 5\\KPO\\kpoLabs\\KPOLab2\\TestProject2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -77,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

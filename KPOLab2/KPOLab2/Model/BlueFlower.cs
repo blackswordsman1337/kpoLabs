@@ -2,7 +2,7 @@
 {
     internal class BlueFlower : Flower
     {
-        public BlueFlower() 
+        public BlueFlower()
         {
             Color = ColorsEnum.Blue;
             Price = 4.7;

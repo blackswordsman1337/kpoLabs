@@ -1,14 +1,14 @@
-﻿namespace KPOLab2
+﻿using System;
+using System.Collections.Generic;
+
+namespace KPOLab2
 {
     internal static class ObjectCreator
     {
-        //public static Flower CreateFlower()
-        //{
-        //    return new Flower();
-        //}
         public static int flowerCount;
         public static int bouqetCount;
-        public static Flower CreateFlower(ColorsEnum color) 
+
+        public static Flower CreateFlower(ColorsEnum color)
         {
             flowerCount++;
             if (color == ColorsEnum.Red)
@@ -19,37 +19,37 @@
                 return new BlueFlower();
         }
 
-        public static Bouquet CreateBouquet(Flower[] flowers)
+        public static Bouquet CreateBouquet(List<Flower> flowers)
         {
             bouqetCount++;
             return new Bouquet(flowers);
         }
 
-        public static Bouquet CreateBouquet(Flower[] flowers, int capacity)
+        public static Bouquet CreateBouquet(List<Flower> flowers, int capacity)
         {
             bouqetCount++;
             return new Bouquet(flowers, capacity);
         }
 
-        public static Flower[] CreateFlowers(ColorsEnum[] colors)
+        public static List<Flower> CreateFlowers(List<ColorsEnum> colors)
         {
-            var flowers = new Flower[colors.Length];
-            for (int i = 0; i < colors.Length; i++)
+            var flowers = new List<Flower>();
+            foreach (var color in colors)
             {
-                flowers[i] = CreateFlower(colors[i]);
+                flowers.Add(CreateFlower(color));
                 flowerCount++;
             }
 
             return flowers;
         }
 
-        public static Bouquet[] CreateBouquets(int count)
+        public static List<Bouquet> CreateBouquets(int count)
         {
-            var bouquets = new Bouquet[count];
+            var bouquets = new List<Bouquet>();
             for (int i = 0; i < count; i++)
             {
-                bouquets[i] = CreateBouquet(CreateFlowers(
-                    new ColorsEnum[] {ColorsEnum.Red, ColorsEnum.Green, ColorsEnum.Blue}));
+                bouquets.Add(CreateBouquet(CreateFlowers(
+                    new List<ColorsEnum> { ColorsEnum.Red, ColorsEnum.Green, ColorsEnum.Blue })));
                 bouqetCount++;
             }
 

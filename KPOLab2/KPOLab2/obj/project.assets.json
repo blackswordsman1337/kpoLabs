@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maxff\\Source\\Repos\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj",
+      "projectUniqueName": "C:\\Users\\maxff\\OneDrive\\Рабочий стол\\semen 5\\KPO\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj",
       "projectName": "KPOLab2",
-      "projectPath": "C:\\Users\\maxff\\Source\\Repos\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj",
+      "projectPath": "C:\\Users\\maxff\\OneDrive\\Рабочий стол\\semen 5\\KPO\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj",
       "packagesPath": "C:\\Users\\maxff\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maxff\\Source\\Repos\\kpoLabs\\KPOLab2\\KPOLab2\\obj\\",
+      "outputPath": "C:\\Users\\maxff\\OneDrive\\Рабочий стол\\semen 5\\KPO\\kpoLabs\\KPOLab2\\KPOLab2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -66,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

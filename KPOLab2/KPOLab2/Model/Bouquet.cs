@@ -1,20 +1,21 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections.Generic;
 
 namespace KPOLab2
 {
     internal class Bouquet : IEnumerable<Flower>
     {
-        public static int BouquetsMade { get; private set; } //number of bouquets made
+        public static int BouquetsMade { get; private set; } // number of bouquets made
 
-        public Flower[] Flowers { get; private set; }
+        public List<Flower> Flowers { get; private set; }
 
         public double WeightGrams
         {
             get
             {
                 var weight = 0d;
-                foreach (var flower in Flowers) 
-                { 
+                foreach (var flower in Flowers)
+                {
                     weight += flower.WeightGrams;
                 }
 
@@ -64,25 +65,25 @@ namespace KPOLab2
             }
         }
 
-        public Bouquet(Flower[] flowers)
+        public Bouquet(List<Flower> flowers)
         {
-            if (flowers == null) 
-                throw new ArgumentException("Flowers array is null!");
+            if (flowers == null)
+                throw new ArgumentException("Flowers list is null!");
 
             Flowers = flowers;
 
             BouquetsMade++;
         }
 
-        public Bouquet(Flower[] flowers, int capacity)
+        public Bouquet(List<Flower> flowers, int capacity)
         {
-            if (flowers == null) 
-                throw new ArgumentException("Flowers array is null!");
+            if (flowers == null)
+                throw new ArgumentException("Flowers list is null!");
 
-            Flowers = new Flower[capacity];
+            Flowers = new List<Flower>(capacity);
             for (int i = 0; i < capacity; i++)
             {
-                Flowers[i] = flowers[i];
+                Flowers.Add(flowers[i]);
             }
 
             BouquetsMade++;
@@ -102,43 +103,25 @@ namespace KPOLab2
 
         public void LeaveOnlyRedFlowers()
         {
-            var newFlowers = new List<Flower>();
-            FillFlowerList<RedFlower>(newFlowers);
-
-            Flowers = newFlowers.ToArray();
+            Flowers.RemoveAll(flower => !(flower is RedFlower));
         }
 
         public void LeaveOnlyBlueFlowers()
         {
-            var newFlowers = new List<Flower>();
-            FillFlowerList<BlueFlower>(newFlowers);
-
-            Flowers = newFlowers.ToArray();
+            Flowers.RemoveAll(flower => !(flower is BlueFlower));
         }
 
         public void LeaveOnlyGreenFlowers()
         {
-            var newFlowers = new List<Flower>();
-            FillFlowerList<GreenFlower>(newFlowers);
-
-            Flowers = newFlowers.ToArray();
-        }
-
-        private void FillFlowerList<T>(List<Flower> flowers)
-        {
-            foreach (var flower in Flowers)
-            {
-                if (flower is T)
-                    flowers.Add(flower);
-            }
+            Flowers.RemoveAll(flower => !(flower is GreenFlower));
         }
 
         public IEnumerator<Flower> GetEnumerator()
         {
-            return ((IEnumerable<Flower>)Flowers).GetEnumerator();
+            return Flowers.GetEnumerator();
         }
 
-        IEnumerator IEnumerable.GetEnumerator()
+        System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
         {
             return Flowers.GetEnumerator();
         }

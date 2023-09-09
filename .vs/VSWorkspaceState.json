@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\KPOLab2",
+    "\\KPOLab2\\KPOLab2",
+    "\\KPOLab2\\KPOLab2\\Controller",
+    "\\KPOLab2\\KPOLab2\\Model",
+    "\\KPOLab2\\KPOLab2\\View"
   ],
-  "SelectedNode": "\\KPOLab2.sln",
+  "SelectedNode": "\\KPOLab2\\KPOLab2\\Controller\\ObjectCreator.cs",
   "PreviewInSolutionExplorer": false
 }

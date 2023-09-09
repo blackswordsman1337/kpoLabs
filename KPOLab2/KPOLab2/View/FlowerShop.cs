@@ -1,9 +1,12 @@
-﻿namespace KPOLab2
+﻿using System;
+using System.Collections.Generic;
+
+namespace KPOLab2
 {
     internal class FlowerShop
     {
         public static int FunctioningShopsCount { get; private set; }
-        public static int ActionsMade { get; private set; } //number of actions made
+        public static int ActionsMade { get; private set; } // number of actions made
 
         public readonly string Name;
 
@@ -37,10 +40,10 @@
             _flowerCount = flowerCount;
         }
 
-        public Bouquet MakeBouquet(Flower[] flowers)
+        public Bouquet MakeBouquet(List<Flower> flowers)
         {
-            if (flowers == null) 
-                throw new ArgumentException("Flowers array is null!");
+            if (flowers == null)
+                throw new ArgumentException("Flowers list is null!");
 
             ActionsMade++;
 
@@ -55,27 +58,27 @@
             ActionsMade++;
 
             _flowerCount--;
-            
+
             return ObjectCreator.CreateFlower(color);
         }
 
-        public Bouquet BuyBouquet(ColorsEnum[] colors) 
+        public Bouquet BuyBouquet(List<ColorsEnum> colors)
         {
-            if (colors == null) 
-                throw new ArgumentException("Colors array is null!");
-            
-            if (_flowerCount - colors.Length <= 0)
-                throw new InvalidOperationException("The shop doesn't have this much flowers.");
+            if (colors == null)
+                throw new ArgumentException("Colors list is null!");
+
+            if (_flowerCount - colors.Count <= 0)
+                throw new InvalidOperationException("The shop doesn't have this many flowers.");
 
             ActionsMade++;
 
-            _flowerCount -= colors.Length;
+            _flowerCount -= colors.Count;
 
-            var flowers = MakeFlowersArray(colors);
+            var flowers = MakeFlowersList(colors);
             return MakeBouquet(flowers);
         }
 
-        private Flower[] MakeFlowersArray(ColorsEnum[] colors)
+        private List<Flower> MakeFlowersList(List<ColorsEnum> colors)
         {
             var flowers = new List<Flower>();
             foreach (var color in colors)
@@ -83,7 +86,7 @@
                 flowers.Add(ObjectCreator.CreateFlower(color));
             }
 
-            return flowers.ToArray();
+            return flowers;
         }
     }
 }
