@@ -129,15 +129,25 @@ namespace KPOLab2
 
 
 
-            
-            flowers.Sort();
+            // Словарь сортировщиков
+            var sorters = new Dictionary<string, object>();
+
+
+            sorters["FlowerColor"] = new FlowerColorComparator();
+            sorters["Bouquet"] = Bouquet.CompareByPrice;
+            Bouquet.currentComparison = (Bouquet.BouquetComparison)sorters["Bouquet"];// Bouquet.CompareByPrice;
+
+
+
+
+            flowers.Sort((IComparer<Flower>?)sorters["FlowerColor"]);
 
             Console.WriteLine("Цветы отсортированы по цвету:");
             foreach (Flower f in flowers)
                 Console.WriteLine(f.Color);
 
+            // Сортировка букетов
 
-            // Сортировка букетов  
             bouquets.Sort();
 
             Console.WriteLine("Букеты отсортированы по цене:");

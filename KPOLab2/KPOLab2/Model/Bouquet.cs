@@ -8,10 +8,16 @@ namespace KPOLab2
         public static int BouquetsMade { get; private set; } // number of bouquets made
 
         public List<Flower> Flowers { get; private set; }
-
+        public delegate int BouquetComparison(Bouquet x, Bouquet y);
+        public static BouquetComparison CompareByPrice = (x, y) => x.Price.CompareTo(y.Price);
+        public static BouquetComparison CompareByWeight = (x, y) => x.WeightGrams.CompareTo(y.WeightGrams);
+        public static BouquetComparison CompareByCheapestFlowerPrice = (x, y) => x.TheCheapestFlower.Price.CompareTo(y.TheCheapestFlower.Price);
+        public static BouquetComparison CompareByMostExpensiveFlowerPrice = (x, y) => x.TheMostExpensiveFlower.Price.CompareTo(y.TheMostExpensiveFlower.Price);
+        
+        public static BouquetComparison currentComparison = CompareByPrice;
         public int CompareTo(Bouquet other)
         {
-            return this.Price.CompareTo(other.Price);
+            return currentComparison(this, other);
         }
 
         public double WeightGrams
