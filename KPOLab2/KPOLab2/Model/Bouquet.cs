@@ -136,5 +136,20 @@ namespace KPOLab2
         {
             return Flowers.GetEnumerator();
         }
+
+        public IEnumerable<Flower> GetFlowers(int max)
+        {
+            for (int i = 0; i < max; i++)
+            {
+                if (i == Flowers.Count)
+                {
+                    yield break;
+                }
+                else
+                {
+                    yield return Flowers[i];
+                }
+            }
+        }
     }
 }

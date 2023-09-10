@@ -107,52 +107,63 @@ namespace KPOLab2
             bouquets.Add(bouquet1);
             bouquets.Add(bouquet2);
 
-            Console.Write("Введите цвет цветка (Red, Green или Blue): ");
-            string colorString = Console.ReadLine();
+            #region CommentedSection
+            //Console.Write("Введите цвет цветка (Red, Green или Blue): ");
+            //string colorString = Console.ReadLine();
 
-            // Преобразовать строку в enum
-            ColorsEnum color;
-            if (!Enum.TryParse(colorString, out color))
-            {
-                Console.WriteLine("Ошибка: неправильный формат цвета");
-                return;
-            }
-            SearchFlower(flowers, color);
+            //// Преобразовать строку в enum
+            //ColorsEnum color;
+            //if (!Enum.TryParse(colorString, out color))
+            //{
+            //    Console.WriteLine("Ошибка: неправильный формат цвета");
+            //    return;
+            //}
+            //SearchFlower(flowers, color);
 
-            Console.Write("Введите вес цветка: ");
-            double weight = double.Parse(Console.ReadLine());
-            SearchFlower(flowers, weight);
+            //Console.Write("Введите вес цветка: ");
+            //double weight = double.Parse(Console.ReadLine());
+            //SearchFlower(flowers, weight);
 
-            Console.Write("Введите цену цветка: ");
-            double price = double.Parse(Console.ReadLine());
-            SearchFlower(flowers, price, "price");
+            //Console.Write("Введите цену цветка: ");
+            //double price = double.Parse(Console.ReadLine());
+            //SearchFlower(flowers, price, "price");
 
 
 
             // Словарь сортировщиков
-            var sorters = new Dictionary<string, object>();
+            //var sorters = new Dictionary<string, object>();
 
 
-            sorters["FlowerColor"] = new FlowerColorComparator();
-            sorters["Bouquet"] = Bouquet.CompareByPrice;
-            Bouquet.currentComparison = (Bouquet.BouquetComparison)sorters["Bouquet"];// Bouquet.CompareByPrice;
+            //sorters["FlowerColor"] = new FlowerColorComparator();
+            //sorters["Bouquet"] = Bouquet.CompareByPrice;
+            //Bouquet.currentComparison = (Bouquet.BouquetComparison)sorters["Bouquet"];// Bouquet.CompareByPrice;
 
 
 
 
-            flowers.Sort((IComparer<Flower>?)sorters["FlowerColor"]);
+            //flowers.Sort((IComparer<Flower>?)sorters["FlowerColor"]);
 
-            Console.WriteLine("Цветы отсортированы по цвету:");
-            foreach (Flower f in flowers)
-                Console.WriteLine(f.Color);
+            //Console.WriteLine("Цветы отсортированы по цвету:");
+            //foreach (Flower f in flowers)
+            //    Console.WriteLine(f.Color);
 
-            // Сортировка букетов
+            //// Сортировка букетов
 
-            bouquets.Sort();
+            //bouquets.Sort();
 
-            Console.WriteLine("Букеты отсортированы по цене:");
-            foreach (Bouquet b in bouquets)
-                Console.WriteLine(b.Price);
+            //Console.WriteLine("Букеты отсортированы по цене:");
+            //foreach (Bouquet b in bouquets)
+            //    Console.WriteLine(b.Price);
+            #endregion
+
+            Console.WriteLine("-----------------");
+
+            var bouquet = new Bouquet(new List<Flower> { new GreenFlower(), new BlueFlower(), new RedFlower() });
+
+            foreach (var flower in bouquet.GetFlowers(2))
+            {
+                Console.WriteLine(flower.Color);
+            }
 
         }
     }
