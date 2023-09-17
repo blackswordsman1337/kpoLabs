@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Comparison;
 
 namespace KPOLab2
 {
-    internal class Bouquet : IEnumerable<Flower>, IComparable<Bouquet>
+    internal class Bouquet : IEnumerable<Flower>, IMyComparable<Bouquet>
     {
         public static int BouquetsMade { get; private set; } // number of bouquets made
 
@@ -15,7 +14,8 @@ namespace KPOLab2
         public static BouquetComparison CompareByMostExpensiveFlowerPrice = (x, y) => x.TheMostExpensiveFlower.Price.CompareTo(y.TheMostExpensiveFlower.Price);
         
         public static BouquetComparison currentComparison = CompareByPrice;
-        public int CompareTo(Bouquet other)
+
+        public int MyCompareTo(Bouquet other)
         {
             return currentComparison(this, other);
         }

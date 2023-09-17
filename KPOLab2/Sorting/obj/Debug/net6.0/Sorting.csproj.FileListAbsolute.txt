@@ -1,0 +1,11 @@
+C:\Users\Artem Kirilyuk\source\repos\kpoLabs\KPOLab2\Sorting\bin\Debug\net6.0\Sorting.deps.json
+C:\Users\Artem Kirilyuk\source\repos\kpoLabs\KPOLab2\Sorting\bin\Debug\net6.0\Sorting.dll
+C:\Users\Artem Kirilyuk\source\repos\kpoLabs\KPOLab2\Sorting\bin\Debug\net6.0\Sorting.pdb
+C:\Users\Artem Kirilyuk\source\repos\kpoLabs\KPOLab2\Sorting\obj\Debug\net6.0\Sorting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Artem Kirilyuk\source\repos\kpoLabs\KPOLab2\Sorting\obj\Debug\net6.0\Sorting.AssemblyInfoInputs.cache
+C:\Users\Artem Kirilyuk\source\repos\kpoLabs\KPOLab2\Sorting\obj\Debug\net6.0\Sorting.AssemblyInfo.cs
+C:\Users\Artem Kirilyuk\source\repos\kpoLabs\KPOLab2\Sorting\obj\Debug\net6.0\Sorting.csproj.CoreCompileInputs.cache
+C:\Users\Artem Kirilyuk\source\repos\kpoLabs\KPOLab2\Sorting\obj\Debug\net6.0\Sorting.dll
+C:\Users\Artem Kirilyuk\source\repos\kpoLabs\KPOLab2\Sorting\obj\Debug\net6.0\refint\Sorting.dll
+C:\Users\Artem Kirilyuk\source\repos\kpoLabs\KPOLab2\Sorting\obj\Debug\net6.0\Sorting.pdb
+C:\Users\Artem Kirilyuk\source\repos\kpoLabs\KPOLab2\Sorting\obj\Debug\net6.0\ref\Sorting.dll

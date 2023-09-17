@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Comparison\Comparison.csproj" />
+    <ProjectReference Include="..\Sorting\Sorting.csproj" />
+  </ItemGroup>
+
 </Project>

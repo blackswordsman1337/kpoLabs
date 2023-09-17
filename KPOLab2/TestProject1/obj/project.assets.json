@@ -599,14 +599,38 @@
           }
         }
       },
+      "Comparison/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Comparison.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Comparison.dll": {}
+        }
+      },
       "KPOLab2/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Comparison": "1.0.0",
+          "Sorting": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/KPOLab2.dll": {}
         },
         "runtime": {
           "bin/placeholder/KPOLab2.dll": {}
+        }
+      },
+      "Sorting/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Sorting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sorting.dll": {}
         }
       }
     }
@@ -2303,10 +2327,20 @@
         "system.threading.tasks.nuspec"
       ]
     },
+    "Comparison/1.0.0": {
+      "type": "project",
+      "path": "../Comparison/Comparison.csproj",
+      "msbuildProject": "../Comparison/Comparison.csproj"
+    },
     "KPOLab2/1.0.0": {
       "type": "project",
       "path": "../KPOLab2/KPOLab2.csproj",
       "msbuildProject": "../KPOLab2/KPOLab2.csproj"
+    },
+    "Sorting/1.0.0": {
+      "type": "project",
+      "path": "../Sorting/Sorting.csproj",
+      "msbuildProject": "../Sorting/Sorting.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2324,11 +2358,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Artem Kirilyuk\\Documents\\GitHub\\kpoLabs\\KPOLab2\\TestProject1\\TestProject1.csproj",
+      "projectUniqueName": "C:\\Users\\Artem Kirilyuk\\Source\\Repos\\kpoLabs\\KPOLab2\\TestProject1\\TestProject1.csproj",
       "projectName": "TestProject1",
-      "projectPath": "C:\\Users\\Artem Kirilyuk\\Documents\\GitHub\\kpoLabs\\KPOLab2\\TestProject1\\TestProject1.csproj",
+      "projectPath": "C:\\Users\\Artem Kirilyuk\\Source\\Repos\\kpoLabs\\KPOLab2\\TestProject1\\TestProject1.csproj",
       "packagesPath": "C:\\Users\\Artem Kirilyuk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Artem Kirilyuk\\Documents\\GitHub\\kpoLabs\\KPOLab2\\TestProject1\\obj\\",
+      "outputPath": "C:\\Users\\Artem Kirilyuk\\Source\\Repos\\kpoLabs\\KPOLab2\\TestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Artem Kirilyuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2345,8 +2379,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Artem Kirilyuk\\Documents\\GitHub\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj": {
-              "projectPath": "C:\\Users\\Artem Kirilyuk\\Documents\\GitHub\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj"
+            "C:\\Users\\Artem Kirilyuk\\Source\\Repos\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj": {
+              "projectPath": "C:\\Users\\Artem Kirilyuk\\Source\\Repos\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj"
             }
           }
         }

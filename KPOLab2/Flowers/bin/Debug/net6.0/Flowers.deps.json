@@ -1,0 +1,60 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Flowers/1.0.0": {
+        "dependencies": {
+          "KPOLab2": "1.0.0"
+        },
+        "runtime": {
+          "Flowers.dll": {}
+        }
+      },
+      "Comparison/1.0.0": {
+        "runtime": {
+          "Comparison.dll": {}
+        }
+      },
+      "KPOLab2/1.0.0": {
+        "dependencies": {
+          "Comparison": "1.0.0",
+          "Sorting": "1.0.0"
+        },
+        "runtime": {
+          "KPOLab2.dll": {}
+        }
+      },
+      "Sorting/1.0.0": {
+        "runtime": {
+          "Sorting.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Flowers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Comparison/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KPOLab2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sorting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

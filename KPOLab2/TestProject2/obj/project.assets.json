@@ -2308,11 +2308,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Artem Kirilyuk\\Documents\\GitHub\\kpoLabs\\KPOLab2\\TestProject2\\TestProject2.csproj",
+      "projectUniqueName": "C:\\Users\\Artem Kirilyuk\\Source\\Repos\\kpoLabs\\KPOLab2\\TestProject2\\TestProject2.csproj",
       "projectName": "TestProject2",
-      "projectPath": "C:\\Users\\Artem Kirilyuk\\Documents\\GitHub\\kpoLabs\\KPOLab2\\TestProject2\\TestProject2.csproj",
+      "projectPath": "C:\\Users\\Artem Kirilyuk\\Source\\Repos\\kpoLabs\\KPOLab2\\TestProject2\\TestProject2.csproj",
       "packagesPath": "C:\\Users\\Artem Kirilyuk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Artem Kirilyuk\\Documents\\GitHub\\kpoLabs\\KPOLab2\\TestProject2\\obj\\",
+      "outputPath": "C:\\Users\\Artem Kirilyuk\\Source\\Repos\\kpoLabs\\KPOLab2\\TestProject2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Artem Kirilyuk\\AppData\\Roaming\\NuGet\\NuGet.Config",

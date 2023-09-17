@@ -7,7 +7,7 @@
         Blue
     }
 
-    internal abstract class Flower
+    public abstract class Flower
     {
         public static int FlowersBought { get; protected set; } //number of flowers bought
 

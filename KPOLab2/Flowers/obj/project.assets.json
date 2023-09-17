@@ -1,0 +1,125 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Comparison/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Comparison.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Comparison.dll": {}
+        }
+      },
+      "KPOLab2/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Comparison": "1.0.0",
+          "Sorting": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/KPOLab2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KPOLab2.dll": {}
+        }
+      },
+      "Sorting/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Sorting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sorting.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Comparison/1.0.0": {
+      "type": "project",
+      "path": "../Comparison/Comparison.csproj",
+      "msbuildProject": "../Comparison/Comparison.csproj"
+    },
+    "KPOLab2/1.0.0": {
+      "type": "project",
+      "path": "../KPOLab2/KPOLab2.csproj",
+      "msbuildProject": "../KPOLab2/KPOLab2.csproj"
+    },
+    "Sorting/1.0.0": {
+      "type": "project",
+      "path": "../Sorting/Sorting.csproj",
+      "msbuildProject": "../Sorting/Sorting.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "KPOLab2 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Artem Kirilyuk\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Artem Kirilyuk\\source\\repos\\kpoLabs\\KPOLab2\\Flowers\\Flowers.csproj",
+      "projectName": "Flowers",
+      "projectPath": "C:\\Users\\Artem Kirilyuk\\source\\repos\\kpoLabs\\KPOLab2\\Flowers\\Flowers.csproj",
+      "packagesPath": "C:\\Users\\Artem Kirilyuk\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Artem Kirilyuk\\source\\repos\\kpoLabs\\KPOLab2\\Flowers\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Artem Kirilyuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\Artem Kirilyuk\\source\\repos\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj": {
+              "projectPath": "C:\\Users\\Artem Kirilyuk\\source\\repos\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

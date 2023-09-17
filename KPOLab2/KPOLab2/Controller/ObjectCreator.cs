@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace KPOLab2
+﻿namespace KPOLab2
 {
     internal static class ObjectCreator
     {

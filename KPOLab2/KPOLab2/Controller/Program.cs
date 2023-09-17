@@ -1,13 +1,35 @@
-﻿using KPOLab2.Controller;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Reflection;
 
 namespace KPOLab2
 {
     public class Program
     {
-        internal static void Sort(List<Flower> f)
+        private static List<Flower> GetFlowerInstances()
+        {
+            var flowers = new List<Flower>();
+
+            var dynamicLibrariesDirectory = Directory.GetCurrentDirectory() + "\\DynamicLibraries";
+            var files = Directory.GetFiles(dynamicLibrariesDirectory);
+
+            foreach (string file in files)
+            {
+                if (!file.Contains(".dll"))
+                    continue;
+
+                var loadedAssembly = Assembly.LoadFile(file);
+                var assemblyTypes = loadedAssembly.GetTypes();
+
+                for (int i = 0; i < assemblyTypes.Length; i++)
+                {
+                    if (assemblyTypes[i] != null)
+                        flowers.Add((Flower)Activator.CreateInstance(assemblyTypes[i]));
+                }
+            }
+
+            return flowers;
+        }
+
+        internal static void Print(List<Flower> f)
         {
             foreach (var flower in f)
             {
@@ -71,43 +93,45 @@ namespace KPOLab2
         {
             var flowerShop = new FlowerShop();
 
-            var flowers = new List<Flower>();
-            flowers.Add(flowerShop.BuyFlower(ColorsEnum.Red));
-            flowers.Add(flowerShop.BuyFlower(ColorsEnum.Green));
-            flowers.Add(flowerShop.BuyFlower(ColorsEnum.Blue));
+            var flowers = new List<Flower>()
+            {
+                flowerShop.BuyFlower(ColorsEnum.Red),
+                flowerShop.BuyFlower(ColorsEnum.Green),
+                flowerShop.BuyFlower(ColorsEnum.Blue)
+            };
 
             var sortedFlowersByWeight = flowers.OrderBy(flower => flower.WeightGrams).ToList();
             var sortedFlowersByPrice = flowers.OrderBy(flower => flower.Price).ToList();
             var sortedFlowersByColor = flowers.OrderBy(flower => flower.Color).ToList();
 
             Console.WriteLine("Sorted by color:");
-            Sort(sortedFlowersByColor);
+            Print(sortedFlowersByColor);
 
             Console.WriteLine("\nSorted by price:");
-            Sort(sortedFlowersByPrice);
+            Print(sortedFlowersByPrice);
 
             // Сортировка по весу
 
             Console.WriteLine("\nSorted by weight:");
-            Sort(sortedFlowersByWeight);
+            Print(sortedFlowersByWeight);
 
             var bouquet1 = flowerShop.MakeBouquet(flowers);
-            Console.WriteLine("Bouquet 1 price: {0}", bouquet1.Price);
-            Console.WriteLine("Bouquet 1 weight: {0}", bouquet1.WeightGrams);
-            Console.WriteLine("Bouquet 1 the cheapest flower price: {0}", bouquet1.TheCheapestFlower.Price);
+            Console.WriteLine("Bouquet 1 price: {0}\n" +
+                "Bouquet 1 weight: {1}\n" + 
+                "Bouquet 1 the cheapest flower price: {2}", bouquet1.Price, bouquet1.WeightGrams,
+                bouquet1.TheCheapestFlower.Price);
 
             var bouquet2 = flowerShop.BuyBouquet(new List<ColorsEnum> { ColorsEnum.Green, ColorsEnum.Blue });
-            Console.WriteLine("Bouquet 2 price: {0}", bouquet2.Price);
-            Console.WriteLine("Bouquet 2 weight: {0}", bouquet2.WeightGrams);
-            Console.WriteLine("Bouquet 2 the most expensive flower price: {0}", bouquet2.TheMostExpensiveFlower.Price);
+            Console.WriteLine("Bouquet 2 price: {0}\n" +
+                "Bouquet 2 weight: {1}\n" +
+                "Bouquet 2 the cheapest flower price: {2}", bouquet2.Price, bouquet2.WeightGrams,
+                bouquet2.TheCheapestFlower.Price);
 
             Console.WriteLine("Flower create: {0}", ObjectCreator.flowerCount);
             Console.WriteLine("Bouquet create: {0}", ObjectCreator.bouqetCount);
-            var bouquets =  new List<Bouquet>();
-            bouquets.Add(bouquet1);
-            bouquets.Add(bouquet2);
 
-            #region CommentedSection
+            #region CommentedSection 
+            //var bouquets =  new List<Bouquet>() { bouquet1, bouquet2 };
             //Console.Write("Введите цвет цветка (Red, Green или Blue): ");
             //string colorString = Console.ReadLine();
 
@@ -165,6 +189,18 @@ namespace KPOLab2
                 Console.WriteLine(flower.Color);
             }
 
+            Console.WriteLine("-----------------");
+
+            var flowerInstances = GetFlowerInstances();
+            for (int i = 0; i < flowerInstances.Count; i++)
+            {
+                var flower = flowerInstances[i];
+
+                Console.WriteLine("Flower {0}\n" +
+                    "Color: {1}\n" +
+                    "Price: {2}\n" +
+                    "Weight: {3}\n", i + 1, flower.Color, flower.Price, flower.WeightGrams);
+            }
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Artem Kirilyuk\\Documents\\GitHub\\kpoLabs\\KPOLab2\\TestProject1\\TestProject1.csproj": {}
+    "C:\\Users\\Artem Kirilyuk\\Source\\Repos\\kpoLabs\\KPOLab2\\TestProject1\\TestProject1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Artem Kirilyuk\\Documents\\GitHub\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj": {
+    "C:\\Users\\Artem Kirilyuk\\source\\repos\\kpoLabs\\KPOLab2\\Comparison\\Comparison.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Artem Kirilyuk\\Documents\\GitHub\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj",
-        "projectName": "KPOLab2",
-        "projectPath": "C:\\Users\\Artem Kirilyuk\\Documents\\GitHub\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj",
+        "projectUniqueName": "C:\\Users\\Artem Kirilyuk\\source\\repos\\kpoLabs\\KPOLab2\\Comparison\\Comparison.csproj",
+        "projectName": "Comparison",
+        "projectPath": "C:\\Users\\Artem Kirilyuk\\source\\repos\\kpoLabs\\KPOLab2\\Comparison\\Comparison.csproj",
         "packagesPath": "C:\\Users\\Artem Kirilyuk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Artem Kirilyuk\\Documents\\GitHub\\kpoLabs\\KPOLab2\\KPOLab2\\obj\\",
+        "outputPath": "C:\\Users\\Artem Kirilyuk\\source\\repos\\kpoLabs\\KPOLab2\\Comparison\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Artem Kirilyuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\Artem Kirilyuk\\Documents\\GitHub\\kpoLabs\\KPOLab2\\TestProject1\\TestProject1.csproj": {
+    "C:\\Users\\Artem Kirilyuk\\Source\\Repos\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Artem Kirilyuk\\Documents\\GitHub\\kpoLabs\\KPOLab2\\TestProject1\\TestProject1.csproj",
-        "projectName": "TestProject1",
-        "projectPath": "C:\\Users\\Artem Kirilyuk\\Documents\\GitHub\\kpoLabs\\KPOLab2\\TestProject1\\TestProject1.csproj",
+        "projectUniqueName": "C:\\Users\\Artem Kirilyuk\\Source\\Repos\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj",
+        "projectName": "KPOLab2",
+        "projectPath": "C:\\Users\\Artem Kirilyuk\\Source\\Repos\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj",
         "packagesPath": "C:\\Users\\Artem Kirilyuk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Artem Kirilyuk\\Documents\\GitHub\\kpoLabs\\KPOLab2\\TestProject1\\obj\\",
+        "outputPath": "C:\\Users\\Artem Kirilyuk\\Source\\Repos\\kpoLabs\\KPOLab2\\KPOLab2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Artem Kirilyuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,125 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Artem Kirilyuk\\Documents\\GitHub\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj": {
-                "projectPath": "C:\\Users\\Artem Kirilyuk\\Documents\\GitHub\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj"
+              "C:\\Users\\Artem Kirilyuk\\Source\\Repos\\kpoLabs\\KPOLab2\\Comparison\\Comparison.csproj": {
+                "projectPath": "C:\\Users\\Artem Kirilyuk\\Source\\Repos\\kpoLabs\\KPOLab2\\Comparison\\Comparison.csproj"
+              },
+              "C:\\Users\\Artem Kirilyuk\\Source\\Repos\\kpoLabs\\KPOLab2\\Sorting\\Sorting.csproj": {
+                "projectPath": "C:\\Users\\Artem Kirilyuk\\Source\\Repos\\kpoLabs\\KPOLab2\\Sorting\\Sorting.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Artem Kirilyuk\\source\\repos\\kpoLabs\\KPOLab2\\Sorting\\Sorting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Artem Kirilyuk\\source\\repos\\kpoLabs\\KPOLab2\\Sorting\\Sorting.csproj",
+        "projectName": "Sorting",
+        "projectPath": "C:\\Users\\Artem Kirilyuk\\source\\repos\\kpoLabs\\KPOLab2\\Sorting\\Sorting.csproj",
+        "packagesPath": "C:\\Users\\Artem Kirilyuk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Artem Kirilyuk\\source\\repos\\kpoLabs\\KPOLab2\\Sorting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Artem Kirilyuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Artem Kirilyuk\\Source\\Repos\\kpoLabs\\KPOLab2\\TestProject1\\TestProject1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Artem Kirilyuk\\Source\\Repos\\kpoLabs\\KPOLab2\\TestProject1\\TestProject1.csproj",
+        "projectName": "TestProject1",
+        "projectPath": "C:\\Users\\Artem Kirilyuk\\Source\\Repos\\kpoLabs\\KPOLab2\\TestProject1\\TestProject1.csproj",
+        "packagesPath": "C:\\Users\\Artem Kirilyuk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Artem Kirilyuk\\Source\\Repos\\kpoLabs\\KPOLab2\\TestProject1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Artem Kirilyuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Artem Kirilyuk\\Source\\Repos\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj": {
+                "projectPath": "C:\\Users\\Artem Kirilyuk\\Source\\Repos\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj"
               }
             }
           }

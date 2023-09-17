@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sFqBQDq6W+4moUwJV21LZ364AtuYN60yjJtkLK7sstiC+0DOnzwaIXQZ6NBJnpGP6LMh+LhYYVFqWSU9aT24Bg==",
+  "dgSpecHash": "GScby7tAp8NoLNpDEyRxjEMwY5F9tWdVujQSFONF9ZJhvuvcDH78YrRPN6irQLjjvYOoB4scbqjybZ0LTir03A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Artem Kirilyuk\\Documents\\GitHub\\kpoLabs\\KPOLab2\\TestProject2\\TestProject2.csproj",
+  "projectFilePath": "C:\\Users\\Artem Kirilyuk\\Source\\Repos\\kpoLabs\\KPOLab2\\TestProject2\\TestProject2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Artem Kirilyuk\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Artem Kirilyuk\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
