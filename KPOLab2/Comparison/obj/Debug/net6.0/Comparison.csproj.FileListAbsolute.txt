@@ -9,3 +9,14 @@ C:\Users\Artem Kirilyuk\source\repos\kpoLabs\KPOLab2\Comparison\obj\Debug\net6.0
 C:\Users\Artem Kirilyuk\source\repos\kpoLabs\KPOLab2\Comparison\obj\Debug\net6.0\refint\Comparison.dll
 C:\Users\Artem Kirilyuk\source\repos\kpoLabs\KPOLab2\Comparison\obj\Debug\net6.0\Comparison.pdb
 C:\Users\Artem Kirilyuk\source\repos\kpoLabs\KPOLab2\Comparison\obj\Debug\net6.0\ref\Comparison.dll
+C:\Users\kiril\source\repos\kpoLabs\KPOLab2\Comparison\bin\Debug\net6.0\Comparison.deps.json
+C:\Users\kiril\source\repos\kpoLabs\KPOLab2\Comparison\bin\Debug\net6.0\Comparison.dll
+C:\Users\kiril\source\repos\kpoLabs\KPOLab2\Comparison\bin\Debug\net6.0\Comparison.pdb
+C:\Users\kiril\source\repos\kpoLabs\KPOLab2\Comparison\obj\Debug\net6.0\Comparison.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kiril\source\repos\kpoLabs\KPOLab2\Comparison\obj\Debug\net6.0\Comparison.AssemblyInfoInputs.cache
+C:\Users\kiril\source\repos\kpoLabs\KPOLab2\Comparison\obj\Debug\net6.0\Comparison.AssemblyInfo.cs
+C:\Users\kiril\source\repos\kpoLabs\KPOLab2\Comparison\obj\Debug\net6.0\Comparison.csproj.CoreCompileInputs.cache
+C:\Users\kiril\source\repos\kpoLabs\KPOLab2\Comparison\obj\Debug\net6.0\Comparison.dll
+C:\Users\kiril\source\repos\kpoLabs\KPOLab2\Comparison\obj\Debug\net6.0\refint\Comparison.dll
+C:\Users\kiril\source\repos\kpoLabs\KPOLab2\Comparison\obj\Debug\net6.0\Comparison.pdb
+C:\Users\kiril\source\repos\kpoLabs\KPOLab2\Comparison\obj\Debug\net6.0\ref\Comparison.dll

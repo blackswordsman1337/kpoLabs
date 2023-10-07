@@ -1,4 +1,5 @@
 ﻿using System.Reflection;
+using System.Runtime.Serialization.Formatters.Binary;
 
 namespace KPOLab2
 {
@@ -201,6 +202,15 @@ namespace KPOLab2
                     "Price: {2}\n" +
                     "Weight: {3}\n", i + 1, flower.Color, flower.Price, flower.WeightGrams);
             }
+
+            var textFactory = new TextFileFlowerFactory();
+            var textFlower = textFactory.CreateProduct();
+
+            var binFactory = new BinaryFileFlowerFactory();
+            var binFlower = binFactory.CreateProduct();
+
+            var randomFactory = new RandomFlowerFactory();
+            var randomFlower = randomFactory.CreateProduct();
         }
     }
 }

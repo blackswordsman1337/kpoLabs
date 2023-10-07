@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Artem Kirilyuk\\source\\repos\\kpoLabs\\KPOLab2\\Sorting\\Sorting.csproj": {}
+    "C:\\Users\\kiril\\source\\repos\\kpoLabs\\KPOLab2\\Sorting\\Sorting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Artem Kirilyuk\\source\\repos\\kpoLabs\\KPOLab2\\Sorting\\Sorting.csproj": {
+    "C:\\Users\\kiril\\source\\repos\\kpoLabs\\KPOLab2\\Sorting\\Sorting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Artem Kirilyuk\\source\\repos\\kpoLabs\\KPOLab2\\Sorting\\Sorting.csproj",
+        "projectUniqueName": "C:\\Users\\kiril\\source\\repos\\kpoLabs\\KPOLab2\\Sorting\\Sorting.csproj",
         "projectName": "Sorting",
-        "projectPath": "C:\\Users\\Artem Kirilyuk\\source\\repos\\kpoLabs\\KPOLab2\\Sorting\\Sorting.csproj",
-        "packagesPath": "C:\\Users\\Artem Kirilyuk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Artem Kirilyuk\\source\\repos\\kpoLabs\\KPOLab2\\Sorting\\obj\\",
+        "projectPath": "C:\\Users\\kiril\\source\\repos\\kpoLabs\\KPOLab2\\Sorting\\Sorting.csproj",
+        "packagesPath": "C:\\Users\\kiril\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kiril\\source\\repos\\kpoLabs\\KPOLab2\\Sorting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Artem Kirilyuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kiril\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

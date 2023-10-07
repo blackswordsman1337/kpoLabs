@@ -7,6 +7,7 @@
         Blue
     }
 
+    [Serializable]
     public abstract class Flower
     {
         public static int FlowersBought { get; protected set; } //number of flowers bought
@@ -16,5 +17,9 @@
         public double Price { get; protected set; }
         public double WeightGrams { get; protected set; }
 
+        public override string ToString()
+        {
+            return string.Format("Color: {0}, Price: {1}, Weight: {2}", Color, Price, WeightGrams);
+        }
     }
 }
