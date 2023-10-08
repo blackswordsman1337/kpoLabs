@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kiril\\source\\repos\\kpoLabs\\KPOLab2\\Flowers\\Flowers.csproj": {}
+    "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\Flowers\\Flowers.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kiril\\source\\repos\\kpoLabs\\KPOLab2\\Comparison\\Comparison.csproj": {
+    "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\Comparison\\Comparison.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kiril\\source\\repos\\kpoLabs\\KPOLab2\\Comparison\\Comparison.csproj",
+        "projectUniqueName": "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\Comparison\\Comparison.csproj",
         "projectName": "Comparison",
-        "projectPath": "C:\\Users\\kiril\\source\\repos\\kpoLabs\\KPOLab2\\Comparison\\Comparison.csproj",
-        "packagesPath": "C:\\Users\\kiril\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kiril\\source\\repos\\kpoLabs\\KPOLab2\\Comparison\\obj\\",
+        "projectPath": "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\Comparison\\Comparison.csproj",
+        "packagesPath": "C:\\Users\\Fyrazhka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\Comparison\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\kiril\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fyrazhka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,21 +59,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\kiril\\source\\repos\\kpoLabs\\KPOLab2\\Flowers\\Flowers.csproj": {
+    "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\Flowers\\Flowers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kiril\\source\\repos\\kpoLabs\\KPOLab2\\Flowers\\Flowers.csproj",
+        "projectUniqueName": "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\Flowers\\Flowers.csproj",
         "projectName": "Flowers",
-        "projectPath": "C:\\Users\\kiril\\source\\repos\\kpoLabs\\KPOLab2\\Flowers\\Flowers.csproj",
-        "packagesPath": "C:\\Users\\kiril\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kiril\\source\\repos\\kpoLabs\\KPOLab2\\Flowers\\obj\\",
+        "projectPath": "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\Flowers\\Flowers.csproj",
+        "packagesPath": "C:\\Users\\Fyrazhka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\Flowers\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\kiril\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fyrazhka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,8 +91,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\kiril\\source\\repos\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj": {
-                "projectPath": "C:\\Users\\kiril\\source\\repos\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj"
+              "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj": {
+                "projectPath": "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj"
               }
             }
           }
@@ -114,21 +122,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\kiril\\source\\repos\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj": {
+    "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kiril\\source\\repos\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj",
+        "projectUniqueName": "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj",
         "projectName": "KPOLab2",
-        "projectPath": "C:\\Users\\kiril\\source\\repos\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj",
-        "packagesPath": "C:\\Users\\kiril\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kiril\\source\\repos\\kpoLabs\\KPOLab2\\KPOLab2\\obj\\",
+        "projectPath": "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj",
+        "packagesPath": "C:\\Users\\Fyrazhka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\KPOLab2\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\kiril\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fyrazhka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -142,11 +154,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\kiril\\source\\repos\\kpoLabs\\KPOLab2\\Comparison\\Comparison.csproj": {
-                "projectPath": "C:\\Users\\kiril\\source\\repos\\kpoLabs\\KPOLab2\\Comparison\\Comparison.csproj"
+              "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\Comparison\\Comparison.csproj": {
+                "projectPath": "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\Comparison\\Comparison.csproj"
               },
-              "C:\\Users\\kiril\\source\\repos\\kpoLabs\\KPOLab2\\Sorting\\Sorting.csproj": {
-                "projectPath": "C:\\Users\\kiril\\source\\repos\\kpoLabs\\KPOLab2\\Sorting\\Sorting.csproj"
+              "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\Sorting\\Sorting.csproj": {
+                "projectPath": "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\Sorting\\Sorting.csproj"
               }
             }
           }
@@ -160,6 +172,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -176,21 +194,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\kiril\\source\\repos\\kpoLabs\\KPOLab2\\Sorting\\Sorting.csproj": {
+    "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\Sorting\\Sorting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kiril\\source\\repos\\kpoLabs\\KPOLab2\\Sorting\\Sorting.csproj",
+        "projectUniqueName": "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\Sorting\\Sorting.csproj",
         "projectName": "Sorting",
-        "projectPath": "C:\\Users\\kiril\\source\\repos\\kpoLabs\\KPOLab2\\Sorting\\Sorting.csproj",
-        "packagesPath": "C:\\Users\\kiril\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kiril\\source\\repos\\kpoLabs\\KPOLab2\\Sorting\\obj\\",
+        "projectPath": "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\Sorting\\Sorting.csproj",
+        "packagesPath": "C:\\Users\\Fyrazhka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\Sorting\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\kiril\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fyrazhka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -231,7 +253,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

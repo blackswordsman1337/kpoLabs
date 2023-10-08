@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "o250BhmnX0XU6JDTkvqSwfrfhozWJtbDmgCzWuCfPHFqNqx0QLzcCaDPtrhnlzZyntdipOATWMiIwXaYfYUROw==",
+  "dgSpecHash": "ncNhb2VNw3J+RjJQBE9/nmU8CeMuaRpob51of4xt2SL+OMS6sFS7P3TiOULRnu1WAfhm7F8+KIdAf+V/L1XnmQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kiril\\source\\repos\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\KPOLab2\\KPOLab2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Fyrazhka\\.nuget\\packages\\log4net\\2.0.15\\log4net.2.0.15.nupkg.sha512",
+    "C:\\Users\\Fyrazhka\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\Fyrazhka\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
+    "C:\\Users\\Fyrazhka\\.nuget\\packages\\system.security.accesscontrol\\4.5.0\\system.security.accesscontrol.4.5.0.nupkg.sha512",
+    "C:\\Users\\Fyrazhka\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.5.0\\system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
+    "C:\\Users\\Fyrazhka\\.nuget\\packages\\system.security.permissions\\4.5.0\\system.security.permissions.4.5.0.nupkg.sha512",
+    "C:\\Users\\Fyrazhka\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

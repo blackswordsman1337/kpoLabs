@@ -1,4 +1,5 @@
-﻿using System;
+﻿using log4net;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization.Formatters.Binary;
@@ -97,6 +98,7 @@ namespace KPOLab2
             {
                 var flower = new RedFlower(price, weight);
                 Log.Out(string.Format("Created {0}", flower));
+                
                 return flower;
             }
             else if (color == "Blue")
