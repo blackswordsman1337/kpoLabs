@@ -102,6 +102,7 @@ namespace KPOLab2
         public static void Main()
         {
             log4net.Config.XmlConfigurator.Configure();
+
             if (log.IsDebugEnabled)
                 log.Debug("Test debug message");
             log.Info("Программа запущена");

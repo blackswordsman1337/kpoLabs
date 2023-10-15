@@ -89,3 +89,49 @@ DEBUG 2023-10-08 16:07:54,212   565ms Program                Main               
 DEBUG 2023-10-08 16:07:54,214   567ms Program                Main               - { RandomFactory = Color: Blue, Price: 2,066, Weight: 46,785 }
 INFO  2023-10-08 16:07:54,216   569ms Log4jPrinter           Print              - This message will be logged using log4j.
 INFO  2023-10-08 16:07:54,217   569ms Program                Main               - Программа завершена
+DEBUG 2023-10-09 08:30:10,630   235ms Program                Main               - Test debug message
+INFO  2023-10-09 08:30:10,697   302ms Program                Main               - Программа запущена
+DEBUG 2023-10-09 08:30:10,702   306ms Program                Print              - { FlowerColor = Red, FlowerPrice = 5, FlowerWeight = 40,2 }
+DEBUG 2023-10-09 08:30:10,704   308ms Program                Print              - { FlowerColor = Green, FlowerPrice = 5,5, FlowerWeight = 37,8 }
+DEBUG 2023-10-09 08:30:10,704   308ms Program                Print              - { FlowerColor = Blue, FlowerPrice = 4,7, FlowerWeight = 41 }
+DEBUG 2023-10-09 08:30:10,704   309ms Program                Print              - { FlowerColor = Blue, FlowerPrice = 4,7, FlowerWeight = 41 }
+DEBUG 2023-10-09 08:30:10,704   309ms Program                Print              - { FlowerColor = Red, FlowerPrice = 5, FlowerWeight = 40,2 }
+DEBUG 2023-10-09 08:30:10,704   309ms Program                Print              - { FlowerColor = Green, FlowerPrice = 5,5, FlowerWeight = 37,8 }
+DEBUG 2023-10-09 08:30:10,704   309ms Program                Print              - { FlowerColor = Green, FlowerPrice = 5,5, FlowerWeight = 37,8 }
+DEBUG 2023-10-09 08:30:10,705   309ms Program                Print              - { FlowerColor = Red, FlowerPrice = 5, FlowerWeight = 40,2 }
+DEBUG 2023-10-09 08:30:10,705   309ms Program                Print              - { FlowerColor = Blue, FlowerPrice = 4,7, FlowerWeight = 41 }
+DEBUG 2023-10-09 08:30:10,706   310ms Program                Main               - { Bouqet1 = KPOLab2.Bouquet }
+DEBUG 2023-10-09 08:30:10,707   311ms Program                Main               - { Bouqet2 = KPOLab2.Bouquet }
+DEBUG 2023-10-09 08:30:10,707   312ms Program                Main               - { ObjectCreatorFlorwer = 5 }
+DEBUG 2023-10-09 08:30:10,707   312ms Program                Main               - { ObjectCreatorBouqet = 2 }
+DEBUG 2023-10-09 08:30:10,725   330ms Program                Main               - { FlowerColor = Blue, FlowerPrice = 4,7, FlowerWeight = 41 }
+DEBUG 2023-10-09 08:30:10,726   330ms Program                Main               - { FlowerColor = Green, FlowerPrice = 5,5, FlowerWeight = 37,8 }
+DEBUG 2023-10-09 08:30:10,726   331ms Program                Main               - { FlowerColor = Red, FlowerPrice = 5, FlowerWeight = 40,2 }
+DEBUG 2023-10-09 08:30:10,734   338ms Program                Main               - { TextFactory = Color: Red, Price: 55,6, Weight: 8,7 }
+DEBUG 2023-10-09 08:30:10,744   348ms Program                Main               - { BinFactory = Color: Red, Price: 55,6, Weight: 8,7 }
+DEBUG 2023-10-09 08:30:10,744   349ms Program                Main               - { RandomFactory = Color: Green, Price: 0,476, Weight: 29,472 }
+INFO  2023-10-09 08:30:10,745   350ms Log4jPrinter           Print              - This message will be logged using log4j.
+INFO  2023-10-09 08:30:10,745   350ms Program                Main               - Программа завершена
+DEBUG 2023-10-09 08:36:36,001   163ms Program                Main               - Test debug message
+INFO  2023-10-09 08:36:36,019   181ms Program                Main               - Программа запущена
+DEBUG 2023-10-09 08:36:36,024   187ms Program                Print              - { FlowerColor = Red, FlowerPrice = 5, FlowerWeight = 40,2 }
+DEBUG 2023-10-09 08:36:36,026   188ms Program                Print              - { FlowerColor = Green, FlowerPrice = 5,5, FlowerWeight = 37,8 }
+DEBUG 2023-10-09 08:36:36,026   189ms Program                Print              - { FlowerColor = Blue, FlowerPrice = 4,7, FlowerWeight = 41 }
+DEBUG 2023-10-09 08:36:36,027   189ms Program                Print              - { FlowerColor = Blue, FlowerPrice = 4,7, FlowerWeight = 41 }
+DEBUG 2023-10-09 08:36:36,027   189ms Program                Print              - { FlowerColor = Red, FlowerPrice = 5, FlowerWeight = 40,2 }
+DEBUG 2023-10-09 08:36:36,027   189ms Program                Print              - { FlowerColor = Green, FlowerPrice = 5,5, FlowerWeight = 37,8 }
+DEBUG 2023-10-09 08:36:36,027   189ms Program                Print              - { FlowerColor = Green, FlowerPrice = 5,5, FlowerWeight = 37,8 }
+DEBUG 2023-10-09 08:36:36,027   189ms Program                Print              - { FlowerColor = Red, FlowerPrice = 5, FlowerWeight = 40,2 }
+DEBUG 2023-10-09 08:36:36,027   189ms Program                Print              - { FlowerColor = Blue, FlowerPrice = 4,7, FlowerWeight = 41 }
+DEBUG 2023-10-09 08:36:36,029   191ms Program                Main               - { Bouqet1 = KPOLab2.Bouquet }
+DEBUG 2023-10-09 08:36:36,030   192ms Program                Main               - { Bouqet2 = KPOLab2.Bouquet }
+DEBUG 2023-10-09 08:36:36,030   193ms Program                Main               - { ObjectCreatorFlorwer = 5 }
+DEBUG 2023-10-09 08:36:36,031   193ms Program                Main               - { ObjectCreatorBouqet = 2 }
+DEBUG 2023-10-09 08:36:36,033   195ms Program                Main               - { FlowerColor = Blue, FlowerPrice = 4,7, FlowerWeight = 41 }
+DEBUG 2023-10-09 08:36:36,033   195ms Program                Main               - { FlowerColor = Green, FlowerPrice = 5,5, FlowerWeight = 37,8 }
+DEBUG 2023-10-09 08:36:36,033   195ms Program                Main               - { FlowerColor = Red, FlowerPrice = 5, FlowerWeight = 40,2 }
+DEBUG 2023-10-09 08:36:36,034   196ms Program                Main               - { TextFactory = Color: Red, Price: 55,6, Weight: 8,7 }
+DEBUG 2023-10-09 08:36:36,038   200ms Program                Main               - { BinFactory = Color: Red, Price: 55,6, Weight: 8,7 }
+DEBUG 2023-10-09 08:36:36,039   201ms Program                Main               - { RandomFactory = Color: Blue, Price: 5,491, Weight: 25,708 }
+INFO  2023-10-09 08:36:36,040   202ms Log4jPrinter           Print              - This message will be logged using log4j.
+INFO  2023-10-09 08:36:36,040   202ms Program                Main               - Программа завершена

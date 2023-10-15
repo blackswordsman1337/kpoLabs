@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "EtnK1qJigh1kqpjnukl0POfEWfoIPzh+iR3mRAD3Vu5cdsqiEF+qhvUbYZBjSm35Ans2B97L5oX6b+UcnrHv1Q==",
+  "dgSpecHash": "Ph9l3OmRCspy2EWN8+yG2im3SOq0YIIta2njptCtI5EjL52Erfb1gKHrH9BY8TwVkWmalIF4nxHRiq6+zAGDrQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Fyrazhka\\Documents\\GitHub\\kpoLabs\\KPOLab2\\Flowers\\Flowers.csproj",
+  "projectFilePath": "C:\\Users\\kiril\\source\\repos\\kpoLabs\\KPOLab2\\Flowers\\Flowers.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Fyrazhka\\.nuget\\packages\\log4net\\2.0.15\\log4net.2.0.15.nupkg.sha512",
-    "C:\\Users\\Fyrazhka\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
-    "C:\\Users\\Fyrazhka\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
-    "C:\\Users\\Fyrazhka\\.nuget\\packages\\system.security.accesscontrol\\4.5.0\\system.security.accesscontrol.4.5.0.nupkg.sha512",
-    "C:\\Users\\Fyrazhka\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.5.0\\system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
-    "C:\\Users\\Fyrazhka\\.nuget\\packages\\system.security.permissions\\4.5.0\\system.security.permissions.4.5.0.nupkg.sha512",
-    "C:\\Users\\Fyrazhka\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512"
+    "C:\\Users\\kiril\\.nuget\\packages\\log4net\\2.0.15\\log4net.2.0.15.nupkg.sha512",
+    "C:\\Users\\kiril\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\kiril\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
+    "C:\\Users\\kiril\\.nuget\\packages\\system.security.accesscontrol\\4.5.0\\system.security.accesscontrol.4.5.0.nupkg.sha512",
+    "C:\\Users\\kiril\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.5.0\\system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
+    "C:\\Users\\kiril\\.nuget\\packages\\system.security.permissions\\4.5.0\\system.security.permissions.4.5.0.nupkg.sha512",
+    "C:\\Users\\kiril\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }
