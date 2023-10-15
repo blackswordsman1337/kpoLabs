@@ -1,9 +1,19 @@
-﻿namespace KPOLab2
+﻿using System.Diagnostics;
+using System.Xml.Serialization;
+
+namespace KPOLab2
 {
     [Serializable]
-    internal class RedFlower : Flower
+    public class RedFlower : Flower
     {
-        public RedFlower(double price = 5, double weight = 40.2)
+        public RedFlower() 
+        {
+            Color = ColorsEnum.Green;
+            Price = 5;
+            WeightGrams = 40.2;
+        }
+
+        public RedFlower(double price, double weight)
         {
             Color = ColorsEnum.Red;
             Price = price;

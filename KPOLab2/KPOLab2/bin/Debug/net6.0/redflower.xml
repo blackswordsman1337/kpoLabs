@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Flower xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="RedFlower">
+  <Color>Green</Color>
+  <Price>5</Price>
+  <WeightGrams>40.2</WeightGrams>
+</Flower>

@@ -135,3 +135,165 @@ DEBUG 2023-10-09 08:36:36,038   200ms Program                Main               
 DEBUG 2023-10-09 08:36:36,039   201ms Program                Main               - { RandomFactory = Color: Blue, Price: 5,491, Weight: 25,708 }
 INFO  2023-10-09 08:36:36,040   202ms Log4jPrinter           Print              - This message will be logged using log4j.
 INFO  2023-10-09 08:36:36,040   202ms Program                Main               - Программа завершена
+DEBUG 2023-10-15 23:43:12,529   195ms Program                Main               - Test debug message
+INFO  2023-10-15 23:43:12,573   240ms Program                Main               - Программа запущена
+ERROR 2023-10-15 23:43:12,615   281ms Program                Main               - Произошла ошибка
+System.InvalidOperationException: There was an error generating the XML document.
+ ---> System.InvalidOperationException: KPOLab2.BlueFlower cannot be serialized because it does not have a parameterless constructor.
+   at System.Xml.Serialization.TypeDesc.CheckSupported()
+   at System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   at System.Xml.Serialization.XmlSerializationWriter.CreateUnknownTypeException(Type type)
+   at System.Xml.Serialization.XmlSerializationWriter.CreateUnknownTypeException(Object o)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterFlower.Write3_Flower(String n, String ns, Flower o, Boolean isNullable, Boolean needType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterFlower.Write4_Flower(Object o)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   at System.Xml.Serialization.XmlSerializer.Serialize(Stream stream, Object o)
+   at KPOLab2.Program.Main() in C:\Users\kiril\source\repos\kpoLabs\KPOLab2\KPOLab2\Controller\Program.cs:line 120
+INFO  2023-10-15 23:43:12,618   285ms Log4jPrinter           Print              - This message will be logged using log4j.
+INFO  2023-10-15 23:43:12,618   285ms Program                Main               - Программа завершена
+DEBUG 2023-10-15 23:45:27,061   159ms Program                Main               - Test debug message
+INFO  2023-10-15 23:45:27,085   182ms Program                Main               - Программа запущена
+ERROR 2023-10-15 23:45:27,106   204ms Program                Main               - Произошла ошибка
+System.InvalidOperationException: There was an error generating the XML document.
+ ---> System.InvalidOperationException: KPOLab2.BlueFlower is inaccessible due to its protection level. Only public types can be processed.
+   at System.Xml.Serialization.TypeDesc.CheckSupported()
+   at System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   at System.Xml.Serialization.XmlSerializationWriter.CreateUnknownTypeException(Type type)
+   at System.Xml.Serialization.XmlSerializationWriter.CreateUnknownTypeException(Object o)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterFlower.Write3_Flower(String n, String ns, Flower o, Boolean isNullable, Boolean needType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterFlower.Write4_Flower(Object o)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   at System.Xml.Serialization.XmlSerializer.Serialize(Stream stream, Object o)
+   at KPOLab2.Program.Main() in C:\Users\kiril\source\repos\kpoLabs\KPOLab2\KPOLab2\Controller\Program.cs:line 120
+INFO  2023-10-15 23:45:27,109   207ms Log4jPrinter           Print              - This message will be logged using log4j.
+INFO  2023-10-15 23:45:27,109   207ms Program                Main               - Программа завершена
+DEBUG 2023-10-15 23:46:22,936   160ms Program                Main               - Test debug message
+INFO  2023-10-15 23:46:22,959   183ms Program                Main               - Программа запущена
+ERROR 2023-10-15 23:46:22,981   205ms Program                Main               - Произошла ошибка
+System.InvalidOperationException: There was an error generating the XML document.
+ ---> System.InvalidOperationException: The type KPOLab2.BlueFlower was not expected. Use the XmlInclude or SoapInclude attribute to specify types that are not known statically.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterFlower.Write3_Flower(String n, String ns, Flower o, Boolean isNullable, Boolean needType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterFlower.Write4_Flower(Object o)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   at System.Xml.Serialization.XmlSerializer.Serialize(Stream stream, Object o)
+   at KPOLab2.Program.Main() in C:\Users\kiril\source\repos\kpoLabs\KPOLab2\KPOLab2\Controller\Program.cs:line 120
+INFO  2023-10-15 23:46:22,983   207ms Log4jPrinter           Print              - This message will be logged using log4j.
+INFO  2023-10-15 23:46:22,984   207ms Program                Main               - Программа завершена
+DEBUG 2023-10-15 23:47:23,916   375ms Program                Main               - Test debug message
+INFO  2023-10-15 23:47:23,970   428ms Program                Main               - Программа запущена
+ERROR 2023-10-15 23:47:24,053   511ms Program                Main               - Произошла ошибка
+System.InvalidOperationException: There was an error generating the XML document.
+ ---> System.InvalidOperationException: The type KPOLab2.BlueFlower was not expected. Use the XmlInclude or SoapInclude attribute to specify types that are not known statically.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterFlower.Write4_Flower(Object o)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   at System.Xml.Serialization.XmlSerializer.Serialize(Stream stream, Object o)
+   at KPOLab2.Program.Main() in C:\Users\kiril\source\repos\kpoLabs\KPOLab2\KPOLab2\Controller\Program.cs:line 120
+INFO  2023-10-15 23:47:24,056   515ms Log4jPrinter           Print              - This message will be logged using log4j.
+INFO  2023-10-15 23:47:24,056   515ms Program                Main               - Программа завершена
+DEBUG 2023-10-15 23:47:46,459   160ms Program                Main               - Test debug message
+INFO  2023-10-15 23:47:46,478   178ms Program                Main               - Программа запущена
+ERROR 2023-10-15 23:47:46,500   201ms Program                Main               - Произошла ошибка
+System.InvalidOperationException: There was an error generating the XML document.
+ ---> System.InvalidOperationException: The type KPOLab2.BlueFlower was not expected. Use the XmlInclude or SoapInclude attribute to specify types that are not known statically.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterFlower.Write3_Flower(String n, String ns, Flower o, Boolean isNullable, Boolean needType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterFlower.Write4_Flower(Object o)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   at System.Xml.Serialization.XmlSerializer.Serialize(Stream stream, Object o)
+   at KPOLab2.Program.Main() in C:\Users\kiril\source\repos\kpoLabs\KPOLab2\KPOLab2\Controller\Program.cs:line 120
+INFO  2023-10-15 23:47:46,503   203ms Log4jPrinter           Print              - This message will be logged using log4j.
+INFO  2023-10-15 23:47:46,503   204ms Program                Main               - Программа завершена
+DEBUG 2023-10-15 23:48:49,027   160ms Program                Main               - Test debug message
+INFO  2023-10-15 23:48:49,051   184ms Program                Main               - Программа запущена
+ERROR 2023-10-15 23:48:49,073   206ms Program                Main               - Произошла ошибка
+System.InvalidOperationException: Cannot deserialize type 'KPOLab2.Flower' because it contains property 'Color' which has no public setter.
+   at System.Xml.Serialization.TypeScope.GetSettableMembers(StructMapping mapping, List`1 list)
+   at System.Xml.Serialization.TypeScope.GetSettableMembers(StructMapping mapping, List`1 list)
+   at System.Xml.Serialization.TypeScope.GetSettableMembers(StructMapping structMapping)
+   at System.Xml.Serialization.XmlSerializationReaderILGen.WriteLiteralStructMethod(StructMapping structMapping)
+   at System.Xml.Serialization.XmlSerializationReaderILGen.GenerateMethod(TypeMapping mapping)
+   at System.Xml.Serialization.XmlSerializationILGen.GenerateReferencedMethods()
+   at System.Xml.Serialization.XmlSerializationReaderILGen.GenerateEnd(String[] methods, XmlMapping[] xmlMappings, Type[] types)
+   at System.Xml.Serialization.TempAssembly.GenerateRefEmitAssembly(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace)
+   at System.Xml.Serialization.TempAssembly..ctor(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, String location)
+   at System.Xml.Serialization.XmlSerializer.GenerateTempAssembly(XmlMapping xmlMapping, Type type, String defaultNamespace, String location)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at KPOLab2.Program.Main() in C:\Users\kiril\source\repos\kpoLabs\KPOLab2\KPOLab2\Controller\Program.cs:line 117
+INFO  2023-10-15 23:48:49,077   210ms Log4jPrinter           Print              - This message will be logged using log4j.
+INFO  2023-10-15 23:48:49,077   210ms Program                Main               - Программа завершена
+DEBUG 2023-10-15 23:49:47,992   170ms Program                Main               - Test debug message
+INFO  2023-10-15 23:49:48,017   194ms Program                Main               - Программа запущена
+INFO  2023-10-15 23:49:48,058   235ms Program                Main               - Синий цветок был сериализован
+ERROR 2023-10-15 23:49:48,061   238ms Program                Main               - Произошла ошибка
+System.InvalidOperationException: There was an error generating the XML document.
+ ---> System.InvalidCastException: Unable to cast object of type 'KPOLab2.RedFlower' to type 'KPOLab2.BlueFlower'.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterBlueFlower.Write5_BlueFlower(Object o)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   at System.Xml.Serialization.XmlSerializer.Serialize(Stream stream, Object o)
+   at KPOLab2.Program.Main() in C:\Users\kiril\source\repos\kpoLabs\KPOLab2\KPOLab2\Controller\Program.cs:line 125
+INFO  2023-10-15 23:49:48,064   241ms Log4jPrinter           Print              - This message will be logged using log4j.
+INFO  2023-10-15 23:49:48,064   241ms Program                Main               - Программа завершена
+DEBUG 2023-10-15 23:51:39,092   164ms Program                Main               - Test debug message
+INFO  2023-10-15 23:51:39,116   188ms Program                Main               - Программа запущена
+ERROR 2023-10-15 23:51:39,139   211ms Program                Main               - Произошла ошибка
+System.InvalidOperationException: There was an error generating the XML document.
+ ---> System.InvalidOperationException: The type KPOLab2.BlueFlower was not expected. Use the XmlInclude or SoapInclude attribute to specify types that are not known statically.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterFlower.Write3_Flower(String n, String ns, Flower o, Boolean isNullable, Boolean needType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterFlower.Write4_Flower(Object o)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   at System.Xml.Serialization.XmlSerializer.Serialize(Stream stream, Object o)
+   at KPOLab2.Program.Main() in C:\Users\kiril\source\repos\kpoLabs\KPOLab2\KPOLab2\Controller\Program.cs:line 120
+INFO  2023-10-15 23:51:39,141   213ms Log4jPrinter           Print              - This message will be logged using log4j.
+INFO  2023-10-15 23:51:39,142   214ms Program                Main               - Программа завершена
+DEBUG 2023-10-15 23:52:51,011   160ms Program                Main               - Test debug message
+INFO  2023-10-15 23:52:51,035   184ms Program                Main               - Программа запущена
+INFO  2023-10-15 23:52:51,075   224ms Program                Main               - Синий цветок был сериализован
+INFO  2023-10-15 23:52:51,076   224ms Program                Main               - Красный цветок был сериализован
+INFO  2023-10-15 23:52:51,077   225ms Program                Main               - Зеленый цветок был сериализован
+INFO  2023-10-15 23:52:51,088   237ms Program                Main               - Синий цветок был сериализован
+INFO  2023-10-15 23:52:51,090   239ms Program                Main               - Красный цветок был сериализован
+INFO  2023-10-15 23:52:51,091   240ms Program                Main               - Зеленый цветок был сериализован
+INFO  2023-10-15 23:52:51,092   240ms Log4jPrinter           Print              - This message will be logged using log4j.
+INFO  2023-10-15 23:52:51,092   240ms Program                Main               - Программа завершена
+DEBUG 2023-10-15 23:53:45,487   169ms Program                Main               - Test debug message
+INFO  2023-10-15 23:53:45,511   194ms Program                Main               - Программа запущена
+INFO  2023-10-15 23:53:45,540   223ms Program                Main               - Синий цветок был десериализован
+INFO  2023-10-15 23:53:45,542   225ms Program                Main               - Красный цветок был десериализован
+INFO  2023-10-15 23:53:45,543   226ms Program                Main               - Зеленый цветок был десериализован
+INFO  2023-10-15 23:53:45,544   226ms Log4jPrinter           Print              - This message will be logged using log4j.
+INFO  2023-10-15 23:53:45,544   226ms Program                Main               - Программа завершена
+DEBUG 2023-10-16 00:05:02,884   163ms Program                Main               - Test debug message
+INFO  2023-10-16 00:05:02,908   187ms Program                Main               - Программа запущена
+INFO  2023-10-16 00:05:02,936   214ms Program                Main               - Синий цветок был десериализован
+INFO  2023-10-16 00:05:02,937   216ms Program                Main               - Красный цветок был десериализован
+INFO  2023-10-16 00:05:02,938   217ms Program                Main               - Зеленый цветок был десериализован
+INFO  2023-10-16 00:05:02,939   218ms Log4jPrinter           Print              - This message will be logged using log4j.
+INFO  2023-10-16 00:05:02,968   247ms Program                Main               - Программа завершена
+DEBUG 2023-10-16 00:05:51,394   158ms Program                Main               - Test debug message
+INFO  2023-10-16 00:05:51,418   182ms Program                Main               - Программа запущена
+INFO  2023-10-16 00:05:51,444   208ms Program                Main               - Синий цветок был десериализован
+INFO  2023-10-16 00:05:51,446   210ms Program                Main               - Красный цветок был десериализован
+INFO  2023-10-16 00:05:51,447   211ms Program                Main               - Зеленый цветок был десериализован
+INFO  2023-10-16 00:05:51,448   212ms Log4jPrinter           Print              - This message will be logged using log4j.
+INFO  2023-10-16 00:05:51,448   212ms Program                Main               - Программа завершена
+DEBUG 2023-10-16 00:05:58,444   340ms Program                Main               - Test debug message
+INFO  2023-10-16 00:05:58,491   386ms Program                Main               - Программа запущена
+INFO  2023-10-16 00:05:58,555   451ms Program                Main               - Синий цветок был десериализован
+INFO  2023-10-16 00:05:58,557   452ms Program                Main               - Красный цветок был десериализован
+INFO  2023-10-16 00:05:58,558   453ms Program                Main               - Зеленый цветок был десериализован
+INFO  2023-10-16 00:05:58,559   454ms Log4jPrinter           Print              - This message will be logged using log4j.
+INFO  2023-10-16 00:05:58,559   454ms Program                Main               - Программа завершена
+DEBUG 2023-10-16 00:06:25,635   159ms Program                Main               - Test debug message
+INFO  2023-10-16 00:06:25,658   182ms Program                Main               - Программа запущена
+INFO  2023-10-16 00:06:25,684   208ms Program                Main               - Синий цветок был десериализован
+INFO  2023-10-16 00:06:25,685   210ms Program                Main               - Красный цветок был десериализован
+INFO  2023-10-16 00:06:25,687   211ms Program                Main               - Зеленый цветок был десериализован
+INFO  2023-10-16 00:06:25,690   215ms Log4jPrinter           Print              - This message will be logged using log4j.
+INFO  2023-10-16 00:06:25,691   215ms Program                Main               - Программа завершена
